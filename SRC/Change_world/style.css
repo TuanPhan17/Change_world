@@ -1,0 +1,190 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: wheat;
+}
+
+.change {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#world {
+    text-align: center;
+    font-size: 150px;
+    background-color: aqua;
+    color: darkgreen;
+    opacity: 0;
+}
+
+@keyframes slideInAnimation {
+    0% {
+        transform: translateX(50vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide_in {
+    animation: slideInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade_in {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#tuan_pic {
+    opacity: 0;
+    /* transform: translateX(-50vw); */
+}
+
+#tuan_pic_des {
+    /* opacity: 0; */
+    transform: translateX(50vw);
+}
+.text{
+    font-size: 100px;
+    color: red;
+}
+.words{
+    font-size: 100px;
+    color: blue;
+}
+.wordz{
+    font-size: 75px;
+    color: green;
+}
+
+/* .content_row img{
+    max-width: 50vw;
+    overflow: hidden;
+} */
+
+/* #tuan_pic { */
+/* height: 100vh;
+    flex: 1;
+}
+
+#tuan_dis {
+    height: 100vh;
+    background-color: wheat;
+    flex: 1;
+} */
+
+/* .tuan {
+    display: flex;
+    flex: 1;
+} */
+
+.content_row {
+    display: flex;
+    height: 100vh;
+    background-color: wheat;
+}
+
+.content_row * {
+    flex: 1;
+    max-width: 50vw;
+    overflow: hidden;
+}
+
+/* #smiling_dis {
+    background-color: wheat;
+    height: 100vh;
+    flex: 1;
+}
+
+#smiling {
+    height: 100vh;
+    flex: 1;
+
+}
+
+.smile {
+    display: flex;
+    height: 100vh;
+}
+
+#laughing {
+    height: 100vh;
+    flex: 1;
+}
+
+#laughing_dis {
+    height: 100vh;
+    background-color: wheat;
+    flex: 1;
+}
+
+.laugh {
+    display: flex;
+    height: 100vh;
+}
+
+#helping {
+    height: 100vh;
+    flex: 1;
+}
+
+#helping_dis {
+    height: 100vh;
+    flex: 1;
+    background-color: wheat;
+}
+
+.help {
+    display: flex;
+    height: 100vh;
+}
+
+#standing {
+    height: 100vh;
+    flex: 1;
+}
+
+#standing_dis {
+    height: 100vh;
+    background-color: wheat;
+    flex: 1;
+}
+
+.stand {
+    display: flex;
+}
+
+#kindness_dis {
+    flex: 1;
+    background-color: wheat;
+}
+
+#kindness {
+    /* height: 100vh; */
+/* flex: 1;
+}
+
+.kind {
+    display: flex;
+    height: 100vh;
+} */
+
+/* */

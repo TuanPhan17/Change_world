@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="one_big_nav">
+        <!-- ^^ just so i can see my big nav -->
+        <div class="nav_top">
+            <p id="dessert">JustDessert</p>
+            <div class="button">
+                <button id="join" onclick="this.remove()">Join</button>
+                <button id="login">Login</button>
+            </div>
+        </div>
+
+        <div class="nav_middle">
+            <div class="search_bar">
+                <input type="text" placeholder="search" id="searchinput">
+                <button id="go" onclick="runsearch()">GO</button>
+
+            </div>
+            <div class="dessert_img">
+                <div class="dessertz">
+                    <img src="cake.png" alt="cake">
+                    <p>Cakes</p>
+                </div>
+                <div class="dessertz">
+                    <img src="ice-cream.png" alt="ice cream">
+                    <p>Ice Cream</p>
+                </div>
+                <div class="dessertz">
+                    <img src="pie.png" alt="pie">
+                    <p>Pie</p>
+                </div>
+                <div class="dessertz">
+                    <img src="cookie.png" alt="cookie">
+                    <p>Cookie</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav_bottom">
+            <div class="recipe">
+                <h1 id="the_day">Recipe of the day</h1>
+                <img src="macarons.jpg" alt="macarons">
+
+                <div class="discription">
+                    <p>Our one and only macarons</p>
+                    <div class="heart">
+                        <!-- <button type="submit"> -->
+                            <img src="heart.png" alt="heart" onclick="change(this)">
+                            <p class="likes">68</p>
+                        <!-- </button> -->
+                    </div>
+                </div>
+                <div class="name">
+                    <p>by:</p>
+                    <p class="namez">Yuripiano</p>
+                </div>
+                <p id="See">See Full Recipe</p>
+            </div>
+            <div class="recommended">
+                <h2 id="for_you">Recommended for you</h2>
+                <div class="orange">
+                    <img src="orange-tart.jpg" alt="orange tart">
+                    <div class="discription">
+                        <p>Orange Tart!</p>
+                        <div class="heart">
+                            <!-- <button type="submit"> -->
+                                <img src="heart.png" alt="heart" onclick="change(this)">
+                                <p class="likes">250</p>
+                            <!-- </button> -->
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>by:</p>
+                        <p class="namez">EmileW</p>
+                    </div>
+                </div>
+                <div class="creme">
+                    <img src="creme-brulee.jpg" alt="creme">
+                    <div class="discription">
+                        <p>Creme Brulee!</p>
+                        <div class="heart">
+                            <!-- <button type="submit"> -->
+                                <img src="heart.png" alt="heart" onclick="change(this)">
+                                <p class="likes">150</p>
+                            <!-- </button> -->
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>by:</p>
+                        <p class="namez">Marisa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

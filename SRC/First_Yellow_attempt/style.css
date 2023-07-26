@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .one_big_nav {
+    background-color: black;
+    height: 600px;
+    width: 700px;
+
+} */
+/* ^^ used it as a reference for my little divs */
+
+.nav_top {
+    background-color: gray;
+    height: 40px;
+    width: 550px;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+#dessert {
+    font-size: 25px;
+    padding-left: 35px;
+}
+
+#join {
+    font-size: 18px;
+    background-color: coral;
+}
+
+#login {
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+}
+
+.button {
+    margin-right: 30px;
+}
+
+
+.nav_middle {
+    background-color: tan;
+    height: 120px;
+    width: 550px;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search_bar,
+.dessert_img {
+    display: flex;
+}
+
+.dessert_img {
+    margin-right: 30px;
+}
+
+.search_bar {
+    margin-left: 30px;
+    box-shadow: 5px 5px 5px;
+    height: 30px;
+}
+
+#go {
+    background-color: blue;
+    color: white;
+}
+
+.nav_middle img {
+    height: 60px;
+}
+
+
+
+.nav_bottom {
+    /* background-color: lawngreen;
+    height: 480px;
+    width: 550px; */
+    /* again ^^^ just as a reference */
+    margin-left: 75px;
+    display: flex;
+    margin-top: 15px;
+}
+
+#the_day {
+    margin-top: 5px;
+    margin-left: 45px;
+    color: blue;
+}
+
+.recipe img {
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.recipe {
+    background-color: lightgrey;
+    height: 400px;
+    width: 340px;
+}
+
+#See {
+    text-decoration: underline;
+    color: blue;
+    margin-top: 20px;
+    margin-left: 118px;
+    font-size: 20px;
+}
+
+.discription,
+.heart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.discription img {
+    height: 50px;
+}
+
+.discription {
+    margin-left: 15px;
+}
+
+.heart {
+    margin-right: 15px;
+    height: 20px;
+}
+
+.name {
+    margin-left: 15px;
+}
+
+.name,
+.namez {
+    display: flex;
+}
+
+.namez {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+.recommended {
+    /* background-color: lightgray; */
+    /* used it as a reference */
+    height: 400px;
+    width: 190px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommended img {
+    height: 120px;
+}
+
+.recommended,
+.heart img {
+    height: 20px;
+}
+
+.creme,
+.orange {
+    margin-top: 20px;
+}
+
+#for_you,
+.orange,
+.creme {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#for_you {
+    font-size: 17px;
+    margin-left: 10px;
+    text-decoration: underline;
+}

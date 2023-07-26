@@ -1,0 +1,25 @@
+
+
+img {
+    height: 200px;
+    width: 200x;
+}
+
+#Doogy,
+#Cat,
+#Cool {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#Doggy {
+    margin-left: 150px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+#Cat{
+    background-color: pink;
+    }
+

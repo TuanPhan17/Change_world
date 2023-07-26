@@ -1,0 +1,45 @@
+.One_big_div{
+background-color: aqua;
+height: 600px;
+width: 600px;
+/* So i can see my width i will comment it out i hard code this one */
+
+}
+
+.Network{
+    background-color: black;
+    height: 40px;
+    width: 450px;
+    margin-left: 75px;
+}
+#your_feed{
+    font-size: 20px;
+    margin-left: 240px;
+}
+
+#James{
+    background-color: white;
+    height: 180px;
+    width: 130px;
+    margin-left: 20px;
+}
+
+#Niel{
+    background-color: white;
+    height: 120px;
+    width: 270px;
+}
+
+#Nichole{
+    background-color: white;
+    height: 120px;
+    width: 270px;
+}
+
+#Jim{
+    background-color: white;
+    height: 120px;
+    width: 270px;
+}
+
+.
